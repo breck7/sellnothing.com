@@ -1,0 +1,39 @@
+title #SellNothing
+date 10-09-2022
+
+openGraphImage bitcoin.png
+
+html
+ <center>
+
+* you will doubt your younger self.
+* you will sell too early.
+* you will miss out.
+* you will learn.
+* you will get another chance.
+* you will have patience this time.
+
+image bitcoin.png
+ caption <i>"2x3x"</i>. I'm a real idiot sometimes.
+
+image ether.png
+ caption Note: I still don't know what <a href="https://en.wikipedia.org/wiki/The_DAO_(organization)">The DAO</a> was and obviously I was joking and did not participate, but I was clearly 100% wrong about it because <a href="https://en.wikipedia.org/wiki/Decentralized_autonomous_organization">DAOs</a> obviously became a huge thing.
+
+* <blockquote class="scrollQuoteComponent">Speak softly and carry a little usb stick<br><br>- Teddy Roosevelt</blockquote >
+ https://www.ledger.com a big [USB] stick
+ https://twitter.com/breckyunits/status/1578528876652699648 Teddy Roosevelt
+ footnote carry
+  And by carry I mean keep securely on an island fortress thousands of miles away from you.
+
+html
+ </center>
+
+siteTitle 
+siteDescription SellNothing.com. Powered by Scroll
+scrollHeader 
+github https://github.com/breck7/sellnothing.com
+viewSourceBaseUrl https://github.com/breck7/sellnothing.com/blob/main
+twitter https://twitter.com/breckyunits
+email unlesstheofferstartswithab@sellnothing.com
+baseUrl https://sellnothing.com
+columnWidth 100
