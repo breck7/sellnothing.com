@@ -14,7 +14,7 @@ html
 * you will have patience this time.
 
 image bitcoin.png
- caption <i>"2x3x"</i>. I'm a real idiot sometimes.
+ caption It's true what they say about me—I'm mentally ill—I thought Bitcoin would only go up to $12.00 or $18.00. I'm a true crazy!
 
 image ether.png
  caption Note: I still don't know what <a href="https://en.wikipedia.org/wiki/The_DAO_(organization)">The DAO</a> was and obviously I was joking and did not participate, but I was clearly 100% wrong about it because <a href="https://en.wikipedia.org/wiki/Decentralized_autonomous_organization">DAOs</a> obviously became a huge thing.
@@ -30,7 +30,6 @@ html
 
 siteTitle 
 siteDescription SellNothing.com. Powered by Scroll
-scrollHeader 
 github https://github.com/breck7/sellnothing.com
 viewSourceBaseUrl https://github.com/breck7/sellnothing.com/blob/main
 twitter https://twitter.com/breckyunits
