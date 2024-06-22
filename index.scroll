@@ -1,45 +1,39 @@
-metaTags
-scrollCssTag
-scrollHeader
-
-
-title #SellNothing
-
-startColumns 1
-
-date 10-09-2022
-
+baseUrl https://sellnothing.com
+email unlesstheofferstartswithab@sellnothing.com
+git https://github.com/breck7/sellnothing.com
 openGraphImage https://sellnothing.com/bitcoin.png
+title #SellNothing
+viewSourceBaseUrl https://github.com/breck7/sellnothing.com/blob/main
 
-html <center>
+metaTags
+gazetteCss
+pageHeader
 
-* you will doubt your younger self.
-* you will sell too early.
-* you will miss out.
-* you will learn.
-* you will get another chance.
-* you will have patience this time.
+printTitle
 
+# My Dumbest Financial Decisions
+
+mediumColumns 1
+
+***
+
+# #1. Acquiring Bitcoin when it was $6 and selling at $1,000
 image bitcoin.png
- caption It's true what they say about me—I'm mentally ill—I thought Bitcoin would only go up to $12.00 or $18.00. I'm a true crazy!
+ caption Early me did not deeply believe in exponentials. Early me sold for a 100x gain instead of a 6,000x gain, missing out on ~98% of the upside.
 
+***
+
+# #2. Acquiring Ether when it was $10 and selling at $20
 image ether.png
- caption Note: I still don't know what The DAO was and obviously I was joking and did not participate, but I was clearly 100% wrong about it because DAOs obviously became a huge thing.
+ caption Note: I still don't know what The DAO was and that part of the email was a joke, but it does look like DAOs became a thing so I was wrong about that.
   https://en.wikipedia.org/wiki/The_DAO_(organization) The DAO
   https://en.wikipedia.org/wiki/Decentralized_autonomous_organization DAOs
 
-* _Speak softly and carry a little usb stick_ - Teddy Roosevelt
- https://www.ledger.com a big [USB] stick
- https://twitter.com/breckyunits/status/1578528876652699648 Teddy Roosevelt
- hoverNote carry
-  And by carry I mean keep securely on an island fortress thousands of miles away from you.
+***
 
-html </center>
+# #3. Buying NVDA in 2014 and selling in 2017
+image nvda.jpeg
 
-description SellNothing.com
-git https://github.com/breck7/sellnothing.com
-viewSourceBaseUrl https://github.com/breck7/sellnothing.com/blob/main
-email unlesstheofferstartswithab@sellnothing.com
-baseUrl https://sellnothing.com
+****
 
-scrollFooter
+pageFooter
