@@ -1,13 +1,15 @@
 baseUrl https://sellnothing.com
 email unlesstheofferstartswithab@sellnothing.com
-git https://github.com/breck7/sellnothing.com
+editBaseUrl https://github.com/breck7/sellnothing.com/blob/main
 openGraphImage https://sellnothing.com/bitcoin.png
 title #SellNothing
-viewSourceBaseUrl https://github.com/breck7/sellnothing.com/blob/main
+buildHtml
 
 metaTags
-gazetteCss
-pageHeader
+theme gazette
+homeButton
+leftRightButtons
+editButton
 
 printTitle
 
@@ -18,13 +20,13 @@ mediumColumns 1
 ***
 
 # #1. Acquiring Bitcoin when it was $6 and selling at $1,000
-image bitcoin.png
+bitcoin.png
  caption Early me did not deeply believe in exponentials. Early me sold for a 100x gain instead of a 6,000x gain, missing out on ~98% of the upside.
 
 ***
 
 # #2. Acquiring Ether when it was $10 and selling at $20
-image ether.png
+ether.png
  caption Note: I still don't know what The DAO was and that part of the email was a joke, but it does look like DAOs became a thing so I was wrong about that.
   https://en.wikipedia.org/wiki/The_DAO_(organization) The DAO
   https://en.wikipedia.org/wiki/Decentralized_autonomous_organization DAOs
@@ -32,8 +34,17 @@ image ether.png
 ***
 
 # #3. Buying NVDA in 2014 and selling in 2017
-image nvda.jpeg
+nvda.jpeg
 
-****
+***
 
-pageFooter
+# #4. Going long TSLA and then selling for a 50% gain
+
+tesla.png
+
+***
+
+center
+ emailButton unlesstheofferstartswithab@sellnothing.com
+ editButton
+ scrollVersionLink
