@@ -31,17 +31,43 @@ printTitle
 
 # My Dumbest Capital Decisions
 
+// Missed-upside estimates dated 2026-09-21; static figures, not live quotes.
+// BTC: (50000 / 6) * (86602.91 - 1000) = 713357583.33.
+// ETH: (10000 / 10) * (2776.47 - 20) = 2756470.
+// Crypto prices: https://giacoin.com/lich-su/2026-09-21/
+// NVDA: (10000 / 0.384) * (227.38 - 3.69) = 5825260.42.
+// Entry uses lowest 2014 close; sale is approximated by 2017 average close.
+// Entry source: https://api.scotiabank.com/investorsolutions/issue/v1.0/download/document?docTypeCd=ISM&issueId=56729&langId=EN
+// Sale source: https://www.statmuse.com/money/ask/nvidia-stock-price-in-2017-monthly
+// Quote: https://www.financecharts.com/stocks/NVDA/summary/price
+// TSLA: (20000 / 20.73) * 375.30 - 30000 = 332083.94.
+// Entry assumes 2017-05-03 email date; sale proceeds assume stated 50% gain.
+// Entry source: https://www.statmuse.com/money/ask/tesla-stock-price-in-may-2017
+// Quote: https://www.financecharts.com/compare/TSLA/summary/price
+// Stock prices are split-adjusted. AMD amount supplied by author.
+
+Approximate missed upside · September 21, 2026
+ addClass lossNote
+
 mediumColumns 1
 
 ***
 
-# #1. Acquiring Bitcoin at $6 and selling at $1,000
+# #1. Acquiring Bitcoin at $6 and selling at $1,000 -$713 million
+ addClass caseLoss -$713 million
 bitcoin.png
  caption Young me did not believe strongly enough in exponentials. A 100x gain could have been a 6,000x gain. ~98% of upside missed.
 
 ***
 
-# #2. Acquiring Ether at $10 and selling at $20
+# #2. Buying NVDA in 2014 and selling in 2017 -$5.8 million
+ addClass caseLoss -$5.8 million
+nvda.jpeg
+
+***
+
+# #3. Acquiring Ether at $10 and selling at $20 -$2.8 million
+ addClass caseLoss -$2.8 million
 ether.png
  caption Note: DAO bit was a joke. Never did find out what DAOs were.
   https://en.wikipedia.org/wiki/The_DAO_(organization) DAO
@@ -49,18 +75,15 @@ ether.png
 
 ***
 
-# #3. Buying NVDA in 2014 and selling in 2017
-nvda.jpeg
-
-***
-
-# #4. Going long TSLA and selling for only a 50% gain
+# #4. Going long TSLA and selling for only a 50% gain -$330,000
+ addClass caseLoss -$330,000
 
 tesla.png
 
 ***
 
-# #5. If I had sold zero of my 365 AMD shares this $1,010.70 would be $224,664.80 today.
+# #5. If I had sold zero of my 365 AMD shares this $1,010.70 would be $224,664.80 today. -$224,664.80
+ addClass caseLoss -$224,664.80
 
 amd.png
 
@@ -122,6 +145,8 @@ css
    text-wrap: pretty;
  }
  .scrollParagraph { text-align: left; }
+ .lossNote { text-align: center; color: #64716a; font-size: 11px; margin: -10px 16px 14px; }
+ .caseLoss { color: #b23b3b; white-space: nowrap; }
  .scrollCaptionedFigure img {
    display: block;
    box-sizing: border-box;
