@@ -17,7 +17,7 @@ permalink index.html
 baseUrl https://sellnothing.com
 email unlesstheofferstartswithab@sellnothing.com
 editBaseUrl https://github.com/breck7/sellnothing.com/blob/main
-openGraphImage https://sellnothing.com/bitcoin.png
+openGraphImage https://sellnothing.com/bulletin-board-og.png
 title #SellNothing
 buildHtml
 
@@ -99,6 +99,13 @@ You can eternally search for and fund new things but will maintain significant s
 
 - after 10 years you'll still hold 35%!
 -  even after 30 years you will still have 4% left of your stake!
+
+section
+ addClass auctionCta
+ The 2026 auction for a 10% stake in SellNothing.com is now open.
+ Bid now →
+  https://x.com/breckyunits/status/2102310551216869626
+  addClass auctionLink
 
 ****
 
@@ -182,6 +189,24 @@ css
  .scrollColumns > p { margin: 8px 0; font-size: 15px; line-height: 1.5; }
  .scrollColumns strong { color: #256653; }
  .scrollColumns li { font-size: 15px; }
+ .auctionCta {
+   margin: 28px 0 12px;
+   padding: 24px;
+   border: 1px solid #cbd3c9;
+   border-radius: 5px;
+   background: #e8ede3;
+ }
+ .auctionCta p { margin: 0; font: bold 21px/1.35 Georgia, serif; }
+ .auctionCta .auctionLink { margin-top: 16px; text-align: center; font: 600 15px/1.5 var(--scrollFontUi); }
+ .auctionLink a {
+   display: inline-block;
+   padding: 10px 20px;
+   border-radius: 4px;
+   background: #256653;
+   color: white;
+   text-decoration: none;
+ }
+ .auctionLink a:hover { background: #1c4f40; }
  a:focus-visible { outline: 2px solid #256653; outline-offset: 4px; }
  body .abstractIconButtonParser { top: 18px; }
  body .abstractIconButtonParser svg { fill: #64716a; width: 20px; height: 20px; }
