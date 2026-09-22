@@ -82,3 +82,79 @@ You can eternally search for and fund new things but will maintain significant s
 center
 editButton
 scrollVersionLink
+
+css
+ :root {
+   --scrollColorBackground: #f5f3ed;
+   --scrollColorText: #253b34;
+   --scrollColorLink: #256653;
+   --scrollColorSubdued: #64716a;
+   --scrollFontPrimary: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+   --scrollFontUi: var(--scrollFontPrimary);
+ }
+ body {
+   padding: 18px 0;
+   border-top: 4px solid #256653;
+   line-height: 1.5;
+   hyphens: none;
+ }
+ h1.printTitleParser {
+   font: bold clamp(30px, 4vw, 40px)/1.1 Georgia, serif;
+   letter-spacing: -1.5px;
+ }
+ body > .scrollSection > h1.scrollParagraph {
+   margin: 7px 16px 18px;
+   color: #64716a;
+   font-size: 12px;
+   font-weight: 500;
+   letter-spacing: 1.4px;
+   text-transform: uppercase;
+ }
+ .scrollColumns {
+   max-width: 660px !important;
+   padding: 0 20px;
+ }
+ .scrollColumns h1 {
+   margin: 0 0 10px;
+   font: bold 21px/1.25 Georgia, serif;
+   letter-spacing: -0.35px;
+   text-align: left;
+   text-wrap: pretty;
+ }
+ .scrollParagraph { text-align: left; }
+ .scrollCaptionedFigure img {
+   display: block;
+   box-sizing: border-box;
+   margin: 0 auto;
+   width: 100%;
+   height: auto;
+   border: 1px solid #dce0d8;
+   border-radius: 5px;
+   background: white;
+ }
+ .scrollCaptionedFigure figcaption p {
+   padding-top: 7px;
+   color: #64716a;
+   font-size: 12px;
+   line-height: 1.5;
+ }
+ .abstractDinkusParser {
+   margin: 18px 0 12px;
+   padding: 0;
+   border-top: 1px solid #cbd3c9;
+ }
+ .abstractDinkusParser:first-child { margin-top: 0; }
+ .abstractDinkusParser span { display: none; }
+ .scrollColumns > p { margin: 8px 0; font-size: 15px; line-height: 1.5; }
+ .scrollColumns strong { color: #256653; }
+ .scrollColumns li { font-size: 15px; }
+ a:focus-visible { outline: 2px solid #256653; outline-offset: 4px; }
+ body .abstractIconButtonParser { top: 18px; }
+ body .abstractIconButtonParser svg { fill: #64716a; width: 20px; height: 20px; }
+ .abstractTextLinkParser { font: 11px var(--scrollFontUi); }
+ .abstractTextLinkParser a { color: #64716a; }
+ @media (max-width: 700px) {
+   .scrollColumns { padding: 0 16px; }
+   .scrollColumns h1 { font-size: 20px; }
+   body > .scrollSection > h1.scrollParagraph { font-size: 11px; letter-spacing: 1px; margin-bottom: 16px; }
+ }
